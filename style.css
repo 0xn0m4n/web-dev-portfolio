@@ -1,0 +1,59 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 18px 18px 18px 19px;
+}
+.logo-title{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #181818;
+}
+/*header related */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-img{
+    width: 584px;
+    height: 676px;
+}
